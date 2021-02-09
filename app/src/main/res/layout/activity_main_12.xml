@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Top Content Here"
+        android:textSize="36sp"
+        android:background="#F60B0B"
+        android:textColor="#FBFBFB"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:id="@+id/second1"
+        android:text="Second"
+        android:textSize="36sp"
+        android:background="#00BCD4"
+        android:textColor="#FBFBFB"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:text="First"
+        android:textSize="36sp"
+        android:background="#4CAF50"
+        android:textColor="#FBFBFB"
+        android:layout_alignBottom="@id/second1"
+        android:layout_toStartOf="@id/second1"
+        android:layout_marginEnd="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+
+    <TextView
+        android:text="Three"
+        android:textSize="36sp"
+        android:background="#F38C73"
+        android:textColor="#ff0"
+        android:layout_alignBottom="@id/second1"
+        android:layout_toEndOf="@id/second1"
+        android:layout_marginStart="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+    <TextView
+        android:text="Bottom Content Here"
+        android:textSize="36sp"
+        android:background="#BDA357"
+        android:textColor="#FBFBFB"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </TextView>
+</RelativeLayout>
